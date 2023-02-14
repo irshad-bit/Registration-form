@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Registration Form</h1>
+        <p>Please fill out this form with the required information</p>
+    </header>
+    <section class="container">
+
+        <form class="form1">
+            <label for="" class="form1">Enter Your First Name:</label>
+            <input type="text" class="form1">
+            <label for="" class="form1">Enter Your Last Name:</label>
+            <input type="text" class="form1">
+            <label for="" class="form1">Enter Your Email:</label>
+            <input type="mail" class="form1">
+            <label for="" class="form1">Create a New Password:</label>
+            <input type="password" class="form1">
+            
+        </form>
+        <hr>
+        <form class="form2">
+            <input type="radio" name="type" class="form2" value="Personal Account">
+            <label for="" class="form2" >Personal Account</label><br>
+            <input type="radio" name="type" class="form2" value="Business Account">
+            <label for="" class="form2"> Business Account</label><br>
+            <input type="checkbox" class="form2"><label for="">I accept the <a href="">terms and conditions</a></label><br>
+        </form>
+        <hr>
+        <form action="" class="form3">
+            <label for="">Upload a profile picture:</label>
+            <input type="file" class="form3">
+            <label class="form3">Input your age (years):</label><br>
+            <input type="number" class="form3">
+        </form>
+        <label>How did you hear about us?</label>
+        <select required>
+            <option value="coding.com news">coding.com news</option>
+            <option value="coding.com Youtube channel">coding.com Youtube channel</option>
+            <option value="coding.com Forum">coding.com Forum</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label>
+            Provide a bio:
+        </label><br>
+        <textarea style="width:100%; height: 100px; color: rgb(204, 230, 221);" value=""placeholder="I like coding on the beach"></textarea>
+        <div class="button">
+            <input type="submit" class="end">
+        </div>
+        
+        
+    </section>
+</body>
+
+</html>

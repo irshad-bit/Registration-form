@@ -1,0 +1,91 @@
+* {
+    background-color: rgb(5, 54, 68);
+
+}
+
+header {
+    color: aliceblue;
+    /* width: 70%; */
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    text-align: left;
+    margin: 50px auto;
+    width: 50%;
+    color: aliceblue;
+    font-family: 'Roboto Mono', monospace;
+}
+form.form1, form.form2, form.form3{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+input.form1 {
+    margin-bottom:20px;
+    height: 30px;
+}
+
+
+input.form1 {
+
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    color: rgb(204, 230, 221);
+    background-color: rgb(1, 12, 16);
+    ;
+
+}
+
+input.form2 {
+    margin-bottom: 20px;
+    border: none;
+    color: rgb(204, 230, 221);
+    background-color: rgb(1, 12, 16);
+    ;
+
+}
+input.form3{
+    display:block;
+    margin-bottom: 20px;
+    border: none;
+    color: rgb(204, 230, 221);
+    background-color: rgb(1, 12, 16);
+    width: 100%;
+    
+    
+}
+label{
+    margin:30px auto;
+}
+
+select, option{
+    color:black;
+    background-color: rgb(204, 230, 221);
+    border-radius: none;
+    width:100%;
+    height:30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button{
+    display:flex;
+    
+}
+.end{
+    width: 50%;
+    margin: 20px auto;
+    border: 2px solid rgb(7, 132, 88);
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(204, 230, 221);
+    color: rgb(3, 25, 44);
+    text-decoration: solid;
+    cursor:progress;
+}
+a{
+    color:aqua;
+}
